@@ -5,7 +5,7 @@ function simular() {
     const golsTime1 = Math.floor(Math.random() * 5); // de 0 a 4
     const golsTime2 = Math.floor(Math.random() * 5);
 
-    const resultado = ${time1} ${golsTime1} x ${golsTime2} ${time2};
+    const resultado = '${time1} ${golsTime1} x ${golsTime2} ${time2}';
 
     document.getElementById('resultado').innerText = resultado;
 }
